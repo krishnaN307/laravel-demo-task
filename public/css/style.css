@@ -1,0 +1,118 @@
+/* common css */
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-wrapper{
+    background: #F5FAF8;
+}
+.bg-red{
+    background-color: #E82727;
+}
+.p-40{
+    padding-top: 40px;
+}
+.m-40{
+    margin-top: 40px;
+}
+
+h3{
+    color:#434343;
+    font-family: "Helvetica Neue";
+    font-size: 36px;
+    font-weight: normal;
+}
+input{
+    outline: none;
+    border: 0.5px solid #707070;
+    border-radius: 8px;
+    color: #8b8b8b;
+}
+.content-wrapper{
+    border-radius: 10px;
+    border: 0.5px solid #707070; 
+    background: #ffffff;
+    padding: 40px 65px 65px;
+}
+/* profile section */
+
+.profile-content span{
+    color: #707070;
+    font-size: 20px;
+}
+.profile-section .profile-img .profile-image{
+    height: 99px;
+    width: 99px;
+    border-radius: 50%;
+}
+/* header css */
+.header .nav{
+    justify-content: center;
+}
+.header .nav-link{
+    color: #fff;
+}
+
+/* booking details & address details*/
+.booking-detail input:focus{
+    outline: none;
+}
+.check-box-wrapper .useContact span{
+    color: #8b8b8b;
+}
+.check-box-wrapper p{
+    margin-bottom: 0;
+    color: #8b8b8b;
+    font-size: 12px;
+}
+.btn-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.previous-btn{
+    background: rgba(229,229,229,0.76 );
+    border-radius: 7px;
+    padding: 15px 50px;
+    color: #5c5c5c;
+    font-size: 29px;
+    border: 0;
+}
+.next-btn{
+    background-color: rgba(232,39,39,0.76 );
+    color: #ffffff;
+    font-size: 29px;
+    padding: 15px 50px;
+    border: 0;
+}
+/* Right panel - extra-info and map */
+.extra-detail{
+    text-transform: uppercase;
+    color: #525252;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0.5px solid #707070; 
+    background: #ffffff;
+}
+.extra-detail p:nth-child(2){
+    font-size: 12px;
+}
+.map-wrapper{
+    /* padding: 20px; */
+    border-radius: 10px;
+    border: 0.5px solid #707070; 
+    background: #ffffff;
+    font-size: 15px;
+}
+.map-wrapper .content p{
+    color: #707070;
+    margin: 0;
+}
+.map-wrapper .content span{
+    font-weight: 500;
+}
+.map-content-wrapper{
+    padding: 20px;
+}
