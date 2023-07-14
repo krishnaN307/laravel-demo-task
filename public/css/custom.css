@@ -1,0 +1,579 @@
+/* common css */
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-wrapper{
+    background: #F5FAF8;
+}
+.bg-red{
+    background-color: #E82727;
+}
+.p-40{
+    padding-top: 40px;
+}
+.m-40{
+    margin-top: 40px;
+}
+h3{
+    color:#434343;
+    font-family: "Helvetica Neue";
+    font-size: 36px;
+    font-weight: normal;
+}
+input{
+    outline: none;
+    border: 0.5px solid #707070;
+    border-radius: 8px;
+    color: #8b8b8b;
+}
+.container{
+    padding: 0;
+}
+.row{
+    width: 100%;
+    margin: auto;
+}
+/* Header */
+.header .nav-item{
+    align-self: center;
+}
+.header .nav-link{
+    color: #fff;    
+    font-size: 16px;
+}
+.header .nav-link i{
+    color: #fff;
+}
+.header .logo-wrapper img{
+    width: 244px;
+    height: 63px;
+}
+.phone-no{
+    font-size: 22px !important;
+}
+.left-menu{
+    margin-right: auto;
+}
+.right-menu{
+    float: right;
+}
+
+/* Footer */
+.footer{
+    height: 200px;
+    background: #343434;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+.footer-wrapper{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Helvetica Neue";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+}
+.menu a {
+    display: block;
+    padding: 7px 15px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.2s all ease-in-out;
+    color: #fff;
+}
+.menu:hover a {
+    opacity: 0.4;
+}
+.menu a:hover {
+    opacity: 1;
+    color: #fff;
+}
+.menu-icon {
+    display: none;
+}
+#menu-toggle {
+    display: none;
+}
+#menu-toggle:checked ~ .menu {
+    transform: scale(1, 1);
+}
+
+/* first section */
+.get-qoute-wrapper, .grid-section{
+    background : #F5FAF8;
+    padding: 40px 0;
+}
+
+.get-qoute-wrapper h3, .grid-section h3{
+    font-family: "Helvetica Neue";
+    font-size: 32px;
+    font-weight: 500;
+    color: #8b8b8b;
+    padding-bottom: 5px;
+}
+.get-qoute-wrapper p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #8b8b8b;
+}
+.get-qoute-wrapper img{
+    max-width: 100%;
+    height: 300px;
+}
+.qoute-btn{
+    text-align: end;
+}
+.get-qoute-wrapper button{
+    width: 260px;
+    height: 54px;
+    border-radius: 7px;
+    background: #e82727;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Helvetica Neue";
+    border: 0;
+}
+.get-qoute-wrapper label{
+    color: #8B8B8B;
+}
+.move-image{
+    margin: auto;
+}
+.get-qoute-wrapper .col-6,.get-qoute-wrapper .col-12{
+    padding: 0;
+}
+.p-need{
+    padding-right: 10px !important;
+}
+/* Grid section */
+.grid-section .col-4{
+    margin:auto;
+    padding: 0;
+}
+.grid-section .background{
+    margin: 0 !important;
+    width: 350px;
+    height: 309px;
+    /* background: url('/images/Image_7.png') repeat; */
+}
+.grid-section .todo-img{
+    margin-top: 15px;
+}
+.grid-section .todo-img:nth-child(1) .background, .grid-section .todo-img:nth-child(6) .background, .grid-section .todo-img:nth-child(8) .background{
+    background: url('/images/Image_7.png') repeat;
+    background-size: cover;
+}
+.grid-section .todo-img:nth-child(2) .background, .grid-section .todo-img:nth-child(7) .background, .grid-section .todo-img:nth-child(4) .background{
+    background: url('/images/Image_21.png') repeat;
+    background-size: cover;
+}
+.grid-section .todo-img:nth-child(3) .background, .grid-section .todo-img:nth-child(9) .background, .grid-section .todo-img:nth-child(5) .background{
+    background: url('/images/Image_22.png') repeat;
+    background-size: cover;
+}
+.grid-section .transbox {
+    width: 350px;
+    height: 309px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    opacity: 0.5;
+    position: relative;
+}
+.grid-section .transbox p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+}
+/* get-price-section */
+.get-price-section .listing-tab ul{
+    list-style: none;
+    color: #8b8b8b;
+    font-family: "Helvetica Neue";
+    font-size: 26px;
+    font-weight: 500;
+    padding-left: 0;
+    justify-content: space-evenly;
+}
+.get-price-section .listing-tab ul{
+    border-bottom: 1px solid #8B8B8B;
+}
+.get-price-section .get-price .col-6{
+    padding: 0;
+}
+.get-price-section .get-price h3{
+    font-size: 50px;
+}   
+.get-price-section .get-price button{
+    width: 182px;
+    height: 45px;
+    border-radius: 7px;
+    background: #e82727;
+    color: #fff;
+    border: 0;
+    font-weight: 600;
+}
+.get-price-section .listing-tab ul img{
+    width: 770px;
+}
+.get-price-section .computer-section img{
+    width: 445px;
+}
+.get-price-section .get-price ul{
+    list-style: none;
+    color: #8b8b8b;
+    font-family: "Helvetica Neue";
+    font-size: 26px;
+    font-weight: 500;
+    padding: 0;
+}
+.get-price-section .get-price ul img{
+    background: green;
+    border-radius: 50%;
+    width: 27px;
+}
+/* free-move-section */
+.free-move-section, .storage-section, .get-price-section{
+    background: #ffffff;
+    padding: 40px 0;
+}
+.free-move-section h3, .storage-section h3, .get-price-section h3{
+    font-family: "Helvetica Neue";
+    font-size: 32px;
+    font-weight: 500;
+    color: #8b8b8b;
+    padding-bottom: 5px;
+}
+.free-move-section  p, .storage-section p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #8b8b8b;
+    width: 332px;
+}
+.free-move-section .col-6{
+    padding: 0;
+}
+.free-move-section img{
+    width: 434px;
+    height: 175px;
+}
+/* storage-section */
+.storage-section p{
+    font-size: 14px;
+    width: 445px;
+}
+.storage-section img{
+    width: 635px;
+}
+.storage-section ul{
+    list-style: none;
+    color: #8b8b8b;
+    font-family: "Helvetica Neue";
+    font-size: 26px;
+    font-weight: 500;
+    padding: 0;
+}
+.storage-section ul img{
+    background: red;
+    border-radius: 50%;
+    width: 27px;
+}
+/* brand section */
+.brand-section img{
+    width: 100%;
+}
+@media (max-width: 1190px) and (min-width: 998px) {
+    .header .logo-wrapper img{
+        width: 200px;
+    }
+    .header .nav-link{
+        font-size: 14px;
+    }
+    .get-qoute-wrapper{
+        padding: 60px 0;
+    }
+    .get-qoute-wrapper .move-image img{
+        height: 270px;
+    }
+    .get-qoute-wrapper h3{
+        font-size: 26px;
+    }
+    .get-qoute-wrapper p{
+        font-size: 11px;
+    }
+    .get-qoute-wrapper input{
+        padding: 0px 10px !important;
+        height: 45px !important;
+        min-height: 45px !important;
+    }
+    .get-qoute-wrapper label{
+        padding: 8px 10px;
+    }
+    .get-qoute-wrapper button{
+        height: auto;
+        width: 210px;
+        padding: 10px 0px;
+    }
+    .storage-section img {
+        width: 462px;
+    }
+    .grid-section .transbox, .grid-section .background{
+        width: 280px;
+        height: 250px;
+    }
+    .get-price-section .listing-tab li{
+        font-size: 20px;
+        align-self: center;
+    }
+    .get-price-section .listing-tab ul img {
+        width: 700px;
+    }
+    .get-price-section .get-price h3 {
+        font-size: 42px;
+    }
+}
+@media (max-width: 997px) and (min-width: 768px) {
+    .header .logo-wrapper img{
+        width: 140px;
+    }
+    .header .nav-link{
+        font-size: 11px;
+    }
+    .phone-no {
+        font-size: 12px !important;
+        font-weight: 700;
+    }
+    .storage-section img {
+        width: 370px;
+    }
+    .storage-section ul {
+        font-size: 20px;
+    }
+    .get-price-section .computer-section img {
+        width: 342px;
+    }
+    .grid-section .transbox, .grid-section .background{
+        width: 220px;
+        height: 200px;
+    }
+    .get-price-section .listing-tab li{
+        font-size: 18px;
+        align-self: center;
+    }
+    .get-price-section .listing-tab ul img {
+        width: 568px;
+    }
+    .get-price-section .get-price h3 {
+        font-size: 31px;
+    }
+    .get-price-section .get-price ul {
+        font-size: 23px;
+    }
+    .get-qoute-wrapper h3{
+        font-size: 26px;
+    }
+    .qoute-btn {
+        padding-right: 0;
+    }
+    .get-qoute-wrapper button {
+        width: 181px;
+        height: 54px;
+    }
+    .free-move-section h3, .storage-section h3, .get-price-section h3 {
+        font-size: 30px;
+    }
+    .free-move-section img {
+        width: 335px;
+        height: 158px;
+    }
+    .free-move-section p, .storage-section p {
+        font-size: 13px;
+        width: 298px;
+    }
+}
+@media (max-width: 767px) and (min-width: 320px) {
+    .container{
+        position: relative;
+    }
+    .logo-wrapper{
+        padding-left: 30px;
+    }
+    .header .logo-wrapper img{
+        width: 190px;
+    }
+    .header .nav-link{
+        font-size: 12px;
+    }
+    .phone-no {
+        font-size: 16px !important;
+        font-weight: 700;
+    }
+    .menu {
+      flex-direction: column;
+      background-color: #151418;
+      align-items: start;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+      transform: scale(1, 0);
+      transform-origin: top;
+      transition: transform 0.3s ease-in-out;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+  
+    .menu a {
+      margin-left: 12px;
+    }
+  
+    .menu li {
+      margin-bottom: 10px;
+    }
+  
+    .container{
+        padding-left: 10px;
+    }
+    .menu-icon {
+        align-self: center;
+        position: absolute;
+        left: 0;
+        display: block;
+        color: #fff;
+        font-size: 28px;
+        cursor: pointer;
+        padding-left: 10px;
+    }
+    .get-price-section .listing-tab ul img {
+        width: 460px;
+    }
+    .get-price-section .listing-tab ul {
+        font-size: 14px;
+    }
+    .get-price-section .computer-section img {
+        width: 262px;
+    }
+    .get-price-section .get-price h3 {
+        font-size: 23px;
+    }
+    .get-price-section .get-price ul img {
+        width: 19px;
+    }
+    .get-price-section .get-price ul {
+        font-size: 19px;
+    }
+    .storage-section img {
+        width: 270px;
+    }
+    .storage-section ul {
+        font-size: 16px;
+    }
+    .storage-section ul img {
+        width: 17px;
+    }
+    .grid-section .transbox, .grid-section .background{
+        width: 175px;
+        height: 160px;
+    }
+    .get-qoute-wrapper h3{
+        font-size: 24px;
+    }
+    .qoute-btn {
+        padding-right: 0;
+    }
+    .get-qoute-wrapper button {
+        width: 137px;
+        height: 42px;
+    }
+    .free-move-section h3, .storage-section h3, .get-price-section h3 {
+        font-size: 25px;
+    }
+    .free-move-section img {
+        width: 255px;
+        height: 128px;
+    }
+    .free-move-section p, .storage-section p {
+        font-size: 10px;
+        width: 239px;
+    }
+    .get-qoute-wrapper label {
+        padding: 10px;
+        font-size: 14px;
+    }
+  }
+@media (max-width: 526px) and (min-width: 348px) {
+    .row{
+        display: block;
+    }
+    .header .logo-wrapper img{
+        width: 150px;
+    }
+    .header .nav-link{
+        font-size: 11px;
+    }
+    .phone-no {
+        font-size: 14px !important;
+        font-weight: 700;
+    }
+    .get-qoute-wrapper .row .row{
+        display: flex;
+    }
+    .get-price-section .listing-tab ul img {
+        width: 260px;
+    }
+    .grid-section .row{
+        display: flex;
+    }
+    .free-move-section p, .storage-section p {
+        width: 335px;
+    }
+    .get-qoute-wrapper .col-6,.get-qoute-wrapper .col-12,.qoute-btn{
+        padding: 0 5px;
+    }
+    .grid-section .transbox, .grid-section .background{
+        width: 155px;
+        height: 140px;
+    }
+}
+@media (max-width: 347px) and (min-width: 320px) {
+    .row{
+        display: block;
+    }
+    .get-qoute-wrapper .row .row{
+        display: flex;
+    }
+    .right-menu{
+        width: 146px;
+    }
+    .header .logo-wrapper img{
+        width: 140px;
+    }
+    .header .nav-link{
+        font-size: 10px;
+    }
+    .phone-no {
+        font-size: 12px !important;
+        font-weight: 700;
+    }
+    .get-price-section .listing-tab ul {
+        font-size: 11px;
+    }
+    .get-price-section .listing-tab ul img {
+        width: 240px;
+    }
+    .grid-section .transbox, .grid-section .background{
+        width: 280px;
+        height: 130px;
+    }
+    .get-qoute-wrapper .col-6,.get-qoute-wrapper .col-12,.qoute-btn{
+        padding: 0 5px;
+    }
+}
